@@ -3,7 +3,7 @@ import { ref } from 'vue'
 import { useRegisterSW } from 'virtual:pwa-register/vue'
 
 import ReloadPrompt from '@/components/ReloadPrompt.vue'
-import { useRoute, useRouter } from 'vue-router'
+import { useRoute } from 'vue-router'
 
 const serviceTitle = 'Service'
 const serviceDescription = 'Description du service'
@@ -50,17 +50,17 @@ const route = useRoute()
 const links = [
   {
     text: 'Sous-menu 1',
-    to: '/submenu-1',
+    to: '/submenu-id-1',
     id: 'submenu-1',
   },
   {
     text: 'Sous-menu 2',
-    to: '/submenu-2',
+    to: '/submenu-id-2',
     id: 'submenu-2',
   },
   {
     text: 'Sous-menu 3',
-    to: '/submenu-3',
+    to: { name: 'SubMenu3' },
     id: 'submenu-3',
   },
 ]

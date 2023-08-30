@@ -32,17 +32,17 @@ const routes = [
   },
   {
     path: '/submenu-id-1',
-    name: 'Menu1',
+    name: 'SubMenu1',
     component: Menu1,
   },
   {
     path: '/submenu-id-2',
-    name: 'Menu2',
+    name: 'SubMenu2',
     component: Menu2,
   },
   {
     path: '/submenu-id-3',
-    name: 'Menu3',
+    name: 'SubMenu3',
     component: Menu3,
   },
   {
