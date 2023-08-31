@@ -118,6 +118,19 @@ const links = [
       </DsfrNavigationItem>
     </DsfrNavigation>
     <router-view />
+    <div class="flex flex-column h-full">
+      <p>
+        <a
+          class="fr-link"
+          type="button"
+          icon="ri-github-fill"
+          href="https://github.com/laruiss/dsfr-navigation-custom-example"
+        >
+          Aller au code source
+          <VIcon name="ri-github-fill" />
+        </a>
+      </p>
+    </div>
   </div>
 
   <ReloadPrompt
